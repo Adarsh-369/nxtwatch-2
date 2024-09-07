@@ -20,7 +20,7 @@ export const PlayVideoStatus = styled.p`
   font-size: 12px;
   color: ${props => props.color};
 `
-export const PlayVideoDot = styled.spam`
+export const PlayVideoDot = styled.span`
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -42,7 +42,7 @@ export const SocialButton = styled.button`
   color: #2563eb;
   color: ${props => props.color};
 `
-export const ButtonText = styled.spam`
+export const ButtonText = styled.span`
   margin-left: 5px;
   color: #2563eb;
   @media screen and (max-width: 576px) {
